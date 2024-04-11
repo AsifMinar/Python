@@ -82,3 +82,11 @@ elif ans1==ans2 or ans2==ans3 or ans3==ans1: #(1,2) (2,3) (1,3)
     print("Someone copied!")
 else:
     print("Nobody copied!")
+
+
+
+
+a = 2
+b = 3
+if not a==b:
+    print("Inequal!")
