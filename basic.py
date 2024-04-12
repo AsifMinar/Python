@@ -53,7 +53,7 @@ print("Course ID: {}, trimester: {}, Room No: {}".format("CSI 424", trim_name, 1
 print("CSI " + "     " + "424")
 
 
-'''
+
 
 #if else
 
@@ -90,3 +90,65 @@ a = 2
 b = 3
 if not a==b:
     print("Inequal!")
+
+
+'''
+
+
+#list
+
+
+list1 = [ 13, "simulation", 3.14, [1,2,3], 10]
+print(list1[1])
+print(len(list1))
+print(list1[3][1])
+
+list2 = ["to", "be", "added"]
+list1.append(list2)
+print(len(list1))
+print(list1)
+
+
+list1.extend(list2)
+# Same as: list1 = list1 + list2
+print(len(list1))
+print(list1)
+
+
+# membership check
+if "simulation" in list1:
+    print("Success!")
+else:
+    print("Failed!")
+
+
+
+# value update
+list1[2] = "new value"
+print(list1)
+
+
+# element removal
+list1.pop()
+print(list1)
+
+list1.pop(2)
+print(list1)
+
+list1.pop(2)
+print(list1)
+
+
+list1.clear()       #same as: list1 = []
+print(len(list1))
+print(list1)
+
+
+
+'''
+1 2 3
+4 5 6
+7 8 9
+'''
+arr_2d = [[1,2,3], [4,5,6], [7,8,9]]
+print(arr_2d[1][2])
