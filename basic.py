@@ -92,7 +92,6 @@ if not a==b:
     print("Inequal!")
 
 
-'''
 
 
 #list
@@ -145,10 +144,80 @@ print(list1)
 
 
 
-'''
-1 2 3
-4 5 6
-7 8 9
-'''
+
+#1 2 3
+#4 5 6
+#7 8 9
+
 arr_2d = [[1,2,3], [4,5,6], [7,8,9]]
 print(arr_2d[1][2])
+
+
+
+'''
+
+
+#loops
+
+
+arr = [13, 'simulation', 'new value', [2, 3, 4], 10, 'to', 'be']
+
+serial = 1
+
+for x in arr:
+    print(serial, x)
+    serial += 1
+
+
+print("\n\n\n")
+
+
+for i in range(5):
+    print(i)
+
+print("\n\n\n")
+
+
+for i in range(5, 13):
+    print(i)
+
+
+print("\n\n\n")
+
+
+for i in range(5, 13, 2):
+    print(i)
+
+
+print("\n\n\n")
+
+
+print(arr)
+for i in range(0,len(arr),2):
+    print("Index: ", i, " Value: ", arr[i])
+
+
+print("\n\n\n")
+
+
+str_ = "summer"
+for c in str_:
+    print(c)
+
+
+print("\n\n\n")
+
+
+
+inp = ""
+while True: # while inp!="end":
+    inp = input("Type <end> to terminate: ")
+    if inp=="end":
+        break
+    else:
+        print("Failed! Try again.")
+
+print("Termination successful")
+
+
+print("\n\n\n")
