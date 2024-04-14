@@ -154,7 +154,7 @@ print(arr_2d[1][2])
 
 
 
-'''
+
 
 
 #loops
@@ -221,3 +221,42 @@ print("Termination successful")
 
 
 print("\n\n\n")
+
+
+'''
+
+
+#dictionary
+
+
+# One type of hashtable
+# Store (key, value) pairs
+# O(1) time complexity
+
+thisdict = {"year":2024, "day":"Sunday", "month":"April"}
+
+print(thisdict["day"])
+
+
+print(thisdict.keys())
+
+
+print(thisdict.values())
+
+
+print(thisdict.items())
+
+
+print(thisdict)
+
+
+
+for i in thisdict.keys():
+    print(i, "->", thisdict[i])
+
+thisdict["date"] = 15
+for key in thisdict.keys():
+    print(key, "->", thisdict[key])
+
+
+
