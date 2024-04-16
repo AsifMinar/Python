@@ -261,3 +261,68 @@ for key in thisdict.keys():
 
 
 '''
+
+
+#functions
+
+
+def add(a, b):
+    return a+b
+
+#print(add(2,3))
+
+m = int(input())
+n = int(input())
+print(m, n)
+print(add(m,n))
+
+
+
+print("\n\n\n")
+
+
+n = input("enter price- ")
+n = int(n)
+def price(n):
+  if n==0:
+    print("free")
+  elif n>=1000:
+    print("expensive")
+  elif n>=0 and n<=1000:
+    print("cheap")
+  elif n<0:
+    print("impossible")
+price(n)
+
+
+
+print("\n\n\n")
+
+
+
+def MinMax(m):
+
+
+  max = min = m[0]
+
+  for i in range(1, len(m)):
+
+
+    if m[i] > max:
+
+      max = m[i]
+
+    elif m[i] < min:
+      min = m[i]
+
+  print('Min: ', min)
+  print('Max: ', max)
+
+
+n = int(input('Enter how many Array elements: '))
+
+arr = [int(input()) for i in range(n)]
+
+print(arr)
+
+MinMax(arr)
