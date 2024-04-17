@@ -260,7 +260,7 @@ for key in thisdict.keys():
 
 
 
-'''
+
 
 
 #functions
@@ -326,3 +326,8 @@ arr = [int(input()) for i in range(n)]
 print(arr)
 
 MinMax(arr)
+
+
+
+
+'''
