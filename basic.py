@@ -328,6 +328,4 @@ print(arr)
 MinMax(arr)
 
 
-
-///
 '''
