@@ -177,4 +177,4 @@ print(solution.longestCommonPrefix(strs))  # Output: ""
 # Example 3:
 strs = ["apple", "ape", "apricot"]
 # The common prefix among the strings "apple", "ape", and "apricot" is "ap".
-print(solution.longestCommonPrefix(strs))  # Output: "ap"
+print(solution.longestCommonPrefix(strs))  # Output: "ap"  
