@@ -242,4 +242,34 @@ class Solution:
         current.next = l1 or l2
         
         # Return the merged list (excluding the dummy head)
-        return dummy.next
+        return dummy.next  
+    
+# Example usage
+# Create the first linked list: 1 -> 2 -> 4
+node1 = ListNode(1)
+node2 = ListNode(2)
+node3 = ListNode(4)
+node2.next = node3
+node1.next = node2
+l1 = node1
+
+# Create the second linked list: 1 -> 3 -> 4
+node4 = ListNode(1)
+node5 = ListNode(3)
+node6 = ListNode(4)
+node5.next = node6
+node4.next = node5
+l2 = node4
+
+# Create an instance of the Solution class
+solution = Solution()
+
+# Merge the two lists
+merged_list = solution.mergeTwoLists(l1, l2)
+
+# Print the values of the merged list
+current = merged_list
+while current:
+    print(current.val, "->", end=" ")
+    current = current.next
+print("None")
