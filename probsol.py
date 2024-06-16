@@ -159,7 +159,7 @@ class solution:
 solution = solution()
 print(solution.lcp(["flower","flow","flight"]))
 
-'''
+
 
 class Solution:
     def isValid(self, s):
@@ -170,11 +170,15 @@ class Solution:
         
         bracket_pairs = {'(': ')', '{': '}', '[': ']'}  # Dictionary defining bracket pairs
         
+        
         for char in s:  # Iterate through each character in the input string
             if char in opening_brackets:  # If the character is an opening bracket
                 stack.append(char)  # Push it onto the stack
+                #print(bracket_pairs[stack.pop()])
             elif char in closing_brackets:  # If the character is a closing bracket
+                #print(bracket_pairs[stack.pop()])
                 if not stack or bracket_pairs[stack.pop()] != char:
+                    #print(bracket_pairs[stack.pop()])
                     # If the stack is empty or the top element of the stack does not match the current closing bracket
                     return False  # Return False, as the parentheses are not valid
         
@@ -202,3 +206,40 @@ print(solution.isValid(input4))  # Output: False
 # Example 5: Valid parentheses
 input5 = "{[]}"
 print(solution.isValid(input5))  # Output: True
+
+# Example 5: Valid parentheses
+input6 = "]"
+print(solution.isValid(input6))  # Output: False
+
+
+
+'''
+
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def mergeTwoLists(self, l1, l2):
+        # Create a dummy node to serve as the head of the merged list
+        dummy = ListNode(0)
+        current = dummy
+        
+        # Traverse both lists simultaneously
+        while l1 and l2:
+            # Compare the values of the current nodes of l1 and l2
+            if l1.val <= l2.val:
+                current.next = l1
+                l1 = l1.next
+            else:
+                current.next = l2
+                l2 = l2.next
+            current = current.next
+        
+        # Append the remaining elements of the non-empty list
+        current.next = l1 or l2
+        
+        # Return the merged list (excluding the dummy head)
+        return dummy.next
