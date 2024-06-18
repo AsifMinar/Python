@@ -323,4 +323,5 @@ length = removeElement(nums, val)
 
 print("Original Array:", nums)
 print("Length:", length)
-print("Modified Array:", nums[:length])
+print("Modified Array:", nums[:length])  
+
