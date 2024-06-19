@@ -347,3 +347,5 @@ index = solution.strStr(haystack, needle)
 print("Haystack:", haystack)
 print("Needle:", needle)
 print("Index of the First Occurrence:", index)
+
+
