@@ -349,3 +349,5 @@ print("Needle:", needle)
 print("Index of the First Occurrence:", index)
 
 
+
+
