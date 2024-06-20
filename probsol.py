@@ -405,5 +405,4 @@ nums = "  full moon  "
 solution = Solution()
 position = solution.lengthOfLastWord(nums)
 
-#print("Target:", target)
 print("Position:", position)
