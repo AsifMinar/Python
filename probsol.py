@@ -464,10 +464,11 @@ class Solution:
 
 
 # Example usage
-a = "1010"
-b = "1011"
+a = "11"
+b = "1"
 
 solution = Solution()
 result = solution.addBinary(a, b)
 
 print("Result:", result)
+
