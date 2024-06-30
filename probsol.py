@@ -541,6 +541,9 @@ print("Number of distinct ways to climb to the top:", result)
 '''
 
 
+
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -580,6 +583,8 @@ current = result
 while current:
     print(current.val)
     current = current.next
+
+
 
 
 
