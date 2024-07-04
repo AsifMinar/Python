@@ -538,7 +538,7 @@ result = solution.climbStairs(n)
 print("Number of distinct ways to climb to the top:", result)
 
 
-'''
+
 
 
 
@@ -589,7 +589,7 @@ while current:
 
 
 
-
+'''
 
 
 
