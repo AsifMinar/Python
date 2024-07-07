@@ -593,6 +593,7 @@ while current:
 '''
 
 
+
 class Solution:
     def merge(self, nums1, m, nums2, n):
         while n > 0:
@@ -618,6 +619,10 @@ solution.merge(nums1, m, nums2, n)
 
 # Print the merged array
 print(nums1)
+
+
+
+
 
 
 
