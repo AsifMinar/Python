@@ -328,7 +328,7 @@ print(arr)
 MinMax(arr)
 
 
-'''
+
 
 # fibonacci series
 
@@ -350,9 +350,7 @@ fibonacci(10)
 
 
 
-
-
-########
+'''
 
 
 
