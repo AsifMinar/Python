@@ -347,3 +347,21 @@ def fibonacci(n):
             print(c)
 
 fibonacci(10)
+
+
+
+
+
+########
+
+
+
+
+
+
+
+
+
+
+
+
