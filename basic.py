@@ -31,6 +31,13 @@ print("Given user input:", inp)
 
 #array
 
+print("lets print an array: ")
+arr = []
+for i in range(3):
+  inp = input("enter: ")
+  con = int(inp)
+  arr.append(con)
+print(arr)
 
 arr = [10, 20, 30]      # 0-indexed array
 print(arr[1])
