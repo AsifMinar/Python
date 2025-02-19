@@ -1,4 +1,4 @@
-class Solution:
+'''class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         dup = False  # Rename 'dup' to 'has_duplicate' for clarity
         for i in range(len(nums)): # Use 'nums' (the input list) instead of 'arr'
@@ -10,3 +10,25 @@ class Solution:
                 break
 
         return dup # Return the boolean value 'dup' (True or False)
+
+'''      
+
+
+
+arr = []
+for i in range(3):
+  inp = input()
+  con = int(inp)
+  arr.append(con)
+
+dup = False 
+
+for i in range(len(arr)):
+  for j in range(len(arr)-i-1):
+    if arr[i] == arr[j+i+1]:
+      dup = True 
+      break
+if dup == True:
+  print("Duplicate found")
+else:
+  print("No duplicate found")
