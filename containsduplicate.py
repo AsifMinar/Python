@@ -23,7 +23,7 @@ class Solution:
 
 
 
-
+ '''
 
 arr = []
 for i in range(3):
@@ -42,7 +42,4 @@ if dup == True:
   print("Duplicate found")
 else:
   print("No duplicate found")
-  
-  
-  '''
   
