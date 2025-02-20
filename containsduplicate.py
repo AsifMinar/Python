@@ -23,7 +23,9 @@ class Solution:
 
 
 
- '''
+ 
+ 
+ 
 
 arr = []
 for i in range(3):
@@ -43,3 +45,5 @@ if dup == True:
 else:
   print("No duplicate found")
   
+  
+'''
