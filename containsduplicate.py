@@ -21,7 +21,7 @@ class Solution:
                 return True  
         return False
 
-'''      
+
 
 
 
@@ -42,3 +42,7 @@ if dup == True:
   print("Duplicate found")
 else:
   print("No duplicate found")
+  
+  
+  '''
+  
