@@ -44,6 +44,3 @@ if dup == True:
   print("Duplicate found")
 else:
   print("No duplicate found")
-  
-  
-'''
