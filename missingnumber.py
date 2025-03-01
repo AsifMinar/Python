@@ -18,8 +18,11 @@ print(missing_number(n))
 
 '''
 
+#from typing import List
+
+
 class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
+    def missingNumber(self, nums: List[int]) -> int: # type: ignore
         nums.sort()
         for i in range(len(nums)):
             if i != nums[i]:
@@ -31,4 +34,5 @@ class Solution:
             else:
                 f = i+1
         return f
+
 
