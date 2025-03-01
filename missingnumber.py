@@ -31,3 +31,4 @@ class Solution:
             else:
                 f = i+1
         return f
+
