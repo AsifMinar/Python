@@ -16,7 +16,7 @@ print(check(a))
 '''
 
 class Solution:
-    def check(self, nums: List[int]) -> bool:
+    def check(self, nums: List[int]) -> bool: # type: ignore
         n = len(nums)
         count = 0
         for i in range(n):
