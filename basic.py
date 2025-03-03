@@ -356,6 +356,19 @@ def fibonacci(n):
 fibonacci(10)
 
 
+#if array is rotated or not
+
+a = [0,1,2]
+
+def check(a):
+    n = len(a)
+    count = 0
+    for i in range(n):
+        if a[i] > a[(i + 1) % n]:
+            count += 1
+    return count <= 1
+
+print(check(a)) 
 
 '''
 
